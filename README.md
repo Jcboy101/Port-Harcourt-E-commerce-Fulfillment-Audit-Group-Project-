@@ -1,4 +1,5 @@
 # Port Harcourt Market Sales Fulfillment Analysis
+---
 
 ## 📝 Project Description
 
@@ -11,6 +12,8 @@ The project was designed to simulate a stakeholder-driven analytics environment.
 We faced challenges typical of real-world data projects: incomplete inventory tracking, ambiguous cancellation reasons, and the need to simulate decisions using proxy variables. This made the work even more reflective of actual business scenarios, requiring creative problem-solving and clear communication among team members.
 
 What started as a technical exercise turned into a full-blown business investigation. The insights generated here are designed to directly inform strategic decisions by regional leadership teams overseeing logistics, operations, and customer experience.
+
+---
 
 ## 📌 Problem Statement
 Rapid sales growth in the Port Harcourt market has exposed critical bottlenecks in product availability and order fulfillment. These issues are threatening customer retention, particularly among newly acquired customers.
@@ -30,10 +33,10 @@ with lower initial repeat purchase rates from these new customers
 3. Identify Top Supplier-Related Fulfillment Constraints: 
 For the limited set of 15 suppliers, determine which ones are linked to the products experiencing 
 the most severe availability gaps or quality issues (inferred from ReturnStatus) that impede smooth order fulfillment to the Port Harcourt market.
+---
+##  Analytical Approach
 
-## 🌟 Analytical Approach
-
-### 1. **Pinpoint Key Product Availability Gaps**
+## 1. **Pinpoint Key Product Availability Gaps**
 **Objective:** Identify which of the 200 products contribute significantly to cancelled orders, particularly for shipments to Port Harcourt and surrounding areas.
 
 **Approach:**
@@ -54,13 +57,14 @@ the most severe availability gaps or quality issues (inferred from ReturnStatus)
 
 
 
-
-### 2. **Assess Impact on Recent Customer Cohorts**
+---
+## 2. **Assess Impact on Recent Customer Cohorts**
 **Objective:** Determine if fulfillment issues disproportionately affect customers acquired after March 1, 2024, and if this correlates with lower repeat purchase rates.
 
 This objective was broken down into two parts:
 
-#### Part A: Fulfillment Issues Among New Customers
+---
+### Part A: Fulfillment Issues Among New Customers
 
 **Goal:** Check if customers acquired after March 1, 2024 experience higher rates of order fulfillment failure (i.e., cancellations or returns) compared to earlier customers.
 
@@ -91,7 +95,8 @@ This objective was broken down into two parts:
 **Interpretation:**
 - Since the p-value (0.4142) is greater than 0.05, we fail to reject the null hypothesis. There is no significant evidence that new customers experience more unfulfilled orders than existing ones.
 
-#### Part B: Repeat Purchase Behavior in New Customers
+---
+## Part B: Repeat Purchase Behavior in New Customers
 
 **Goal:** Investigate whether fulfillment issues are leading to lower repeat purchase rates among the new customer cohort.
 
@@ -119,7 +124,9 @@ This objective was broken down into two parts:
 - However, the p-value (0.1576) is greater than 0.05, so we fail to reject the null hypothesis.
 - This means that while there is a downward trend, the observed difference is not statistically significant at the 5% level. More data may be needed to confirm a genuine decline in loyalty or purchasing behavior among new customers.
 
-### 3. **Identify Top Supplier-Related Fulfillment Constraints**
+---
+
+## 3. **Identify Top Supplier-Related Fulfillment Constraints**
 **Objective:** Determine which suppliers (from the set of 15) are associated with the most problematic products in terms of availability or returns.
 
 **Approach:**
