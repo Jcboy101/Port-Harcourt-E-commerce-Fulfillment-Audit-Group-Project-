@@ -1,0 +1,16 @@
+SupplierID,SupplierName,Country,Region,ContactEmail,Phone,YearsInBusiness,SupplierRating
+S001,Luna Ltd,Canada,North America,sophia64@guerrero-james.com,+1-956-889-7043,19.0,5
+S002,Nguyen-Matthews,United Kingdom,Europe,hayesdawn@pace.net,08007024965,32.0,Awaiting Rating
+S003,Lopez-Jones,Nigeria,Africa,hernandezkimberly@brown.com,09046677762,30.0,4-star
+S004,Brown Group,India,Asia,smithjennifer@williams.com,493-711-8768,10.0,1
+S005,Harrison Inc,Mexico,North America,hbryant@ruiz.com,459-508-0697,45.0,2
+S006,Reyes-Ochoa,Brazil,,kyle84@robinson.info,09013754850,3.0,
+S007,"Parks, Gomez and Lowery",South Korea,Asia,christopher29@flores-medina.org,883-322-7047x20094,1.0,1
+S008,Byrd-Perkins,China,Asia,richardvilla@willis-guerrero.biz,909.694.9861,,4-star
+S009,Bowers and Sons,Brazil,South America,mclaughlinanthony@hardy.com,5358707563,24.0,4-star
+S010,Bush Ltd,France,Europe,heatherbarry@greene.com,,17.0,
+S011,Moore Group,Nigeria,Africa,christopher84@simmons.com,07055427662,,5
+S012,Martin-Allen,China,Asia,bbrown@valenzuela.org,(910)704-1502,42.0,Awaiting Rating
+S013,Fitzpatrick Ltd,Japan,Asia,richard14@scott-price.com,(491)239-4575,48.0,1
+S014,"Lyons, Hansen and Shea",Japan,Asia,rwhitaker@daugherty.com,,,3.5-stars
+S015,Mata-Hill,Nigeria,Africa,rgraves@gonzalez.biz,+919-388-6649,16.0,Awaiting Rating
